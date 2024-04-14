@@ -1,0 +1,5 @@
+Este programa em Java simula um sistema básico de gerenciamento de conta bancária. Ele inicia mostrando o nome do cliente, o tipo de conta e o saldo atual. Em seguida, exibe um menu com opções para o usuário: consultar saldo, transferir valor para outra conta, receber valor em sua conta ou sair do programa. Utilizando um loop while, o programa continua executando até que o usuário opte por sair (opção 4). 
+
+Se o usuário escolhe consultar o saldo (opção 1), o programa simplesmente mostra o saldo atual. Se escolhe transferir valor (opção 2), o programa pede o valor desejado e verifica se há saldo suficiente na conta para realizar a transferência. Caso positivo, subtrai o valor transferido do saldo. Se a opção é receber valor (opção 3), o programa solicita o valor a ser recebido e adiciona esse valor ao saldo. Se uma opção inválida é escolhida, o programa informa ao usuário.
+
+Essencialmente, o programa oferece uma interface de linha de comando para o cliente interagir com sua conta bancária, permitindo-lhe consultar saldo, transferir ou receber valores, até que decida sair do sistema.
